@@ -8,6 +8,12 @@ For this repo, you don't need to do it, since it's already done.
 docker init
 ```
 
+## Add rewrite
+Add this line in the Dockerfile
+```docker
+RUN a2enmod rewrite
+```
+
 ## build 
 ```
 docker compose up --build
