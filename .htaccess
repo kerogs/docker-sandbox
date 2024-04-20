@@ -1,0 +1,4 @@
+RewriteEngine On
+ErrorDocument 404 /404.php
+
+RewriteRule ^info$ info.php [QSA,L]
